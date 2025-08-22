@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber"
+           tests="14"
+           failures="2"
+           errors="0"
+           skipped="0"
+           time="253,663">
+    <properties></properties>
+
+            <testcase
+                name="runScenario"
+                time="16,822"
+                classname="TestRunners.Runner$runner">
+
+            <failure type="org.openqa.selenium.StaleElementReferenceException" message="stale element reference: stale element not found in the current frame
+  (Session info: chrome=139.0.7258.138)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-DLFDU3L&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.138, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9460}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 61297c2be22955f03353a87433224b60">
+                <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=139.0.7258.138)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DLFDU3L', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.138, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9460}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 61297c2be22955f03353a87433224b60
+                java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)Pages.PostPage.clickPollOption(PostPage.java:58)StepDefinitions.PostPageStepDefinitions.userClickPollOption(PostPageStepDefinitions.java:41)✽.User click poll option(file:///C:/Users/Asus/IdeaProjects/TwitterProject/src/test/java/Features/PostMenu.feature:47)
+]]>
+            </failure>
+    </testcase>
+            <testcase
+                name="runScenario"
+                time="17,798"
+                classname="TestRunners.Runner$runner">
+
+            <failure type="org.openqa.selenium.StaleElementReferenceException" message="stale element reference: stale element not found in the current frame
+  (Session info: chrome=139.0.7258.138)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-DLFDU3L&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.138, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9567}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: edbe8be6de39da8e5bac9cdf9a6faba1">
+                <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=139.0.7258.138)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DLFDU3L', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.138, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9567}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: edbe8be6de39da8e5bac9cdf9a6faba1
+                java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)Pages.PostPage.clickPollOption(PostPage.java:58)StepDefinitions.PostPageStepDefinitions.userClickPollOption(PostPageStepDefinitions.java:41)✽.User click poll option(file:///C:/Users/Asus/IdeaProjects/TwitterProject/src/test/java/Features/PostMenu.feature:61)
+]]>
+            </failure>
+    </testcase>
+
+
+            <testcase
+                name="runScenario"
+                time="17,794"
+                classname="TestRunners.Runner$runner">
+            </testcase>
+            <testcase
+                name="runScenario"
+                time="20,870"
+                classname="TestRunners.Runner$runner">
+            </testcase>
+            <testcase
+                name="runScenario"
+                time="17,347"
+                classname="TestRunners.Runner$runner">
+            </testcase>
+            <testcase
+                name="runScenario"
+                time="19,600"
+                classname="TestRunners.Runner$runner">
+            </testcase>
+            <testcase
+                name="runScenario"
+                time="14,217"
+                classname="TestRunners.Runner$runner">
+            </testcase>
+            <testcase
+                name="runScenario"
+                time="19,225"
+                classname="TestRunners.Runner$runner">
+            </testcase>
+            <testcase
+                name="runScenario"
+                time="18,653"
+                classname="TestRunners.Runner$runner">
+            </testcase>
+            <testcase
+                name="runScenario"
+                time="27,110"
+                classname="TestRunners.Runner$runner">
+            </testcase>
+            <testcase
+                name="runScenario"
+                time="18,099"
+                classname="TestRunners.Runner$runner">
+            </testcase>
+            <testcase
+                name="runScenario"
+                time="19,551"
+                classname="TestRunners.Runner$runner">
+            </testcase>
+            <testcase
+                name="runScenario"
+                time="9,351"
+                classname="TestRunners.Runner$runner">
+            </testcase>
+            <testcase
+                name="runScenario"
+                time="17,226"
+                classname="TestRunners.Runner$runner">
+            </testcase>
+</testsuite>
